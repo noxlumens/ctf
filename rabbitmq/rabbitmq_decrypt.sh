@@ -13,8 +13,8 @@ function decode_password()
     # Extract the hashed portion
     HASHED_PART=${DECODED_PASS:8}
     
-    echo "Salt (Hex): $SALT"
-    echo "Password (SHA256, Hex): $HASHED_PART"
+    echo "Salt: $SALT"
+    echo "Password: $HASHED_PART"
 }
 
 # Example usage
