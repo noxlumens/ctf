@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# derived from https://stackoverflow.com/questions/41306350/how-to-generate-password-hash-for-rabbitmq-management-http-api
 function decode_password()
 {
     ENCODED_PASS=$1
